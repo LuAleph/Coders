@@ -1,0 +1,40 @@
+h1{
+	
+	font-family: courier;
+	font-size: 14px;
+}
+
+.c1{
+	display: inline-block;
+	margin: 15px;
+}
+
+hr{
+ background: black;
+ height: 5px;
+ width: 100px;
+ margin-left: 0px ;
+ margin-right: 70%; 
+}
+
+span p{
+	position: absolute;
+	z-index:1;
+	right:30px;
+	bottom:0px;
+	color:white;
+}
+
+span{
+	position: relative;
+}
+
+
+img {
+	opacity: 0.8;
+}
+
+.oscuro{ 
+	-webkit-filter: brightness(65%);
+	filter: brightness(65%);
+}

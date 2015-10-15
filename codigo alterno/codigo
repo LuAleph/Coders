@@ -1,0 +1,35 @@
+.caption {
+padding: 0;
+width: 100%;
+position: relative;
+}
+.caption img {
+width: 100%;
+height: auto;
+display: block;
+padding: 0;
+border: 0;
+}
+.caption::before {
+content: attr(title);
+position: absolute;
+color: white; /* Color del texto */
+font-size: 14px; /* Tamaño del texto */
+padding: 8px;
+right: 0;
+bottom: 0;
+left: 0;
+text-align: right;
+z-index: 1;
+}
+
+
+
+<div  class="c1"> <img src="img/profile-1.png"> </div> 
+      <div class="c1"><img src="img/profile-2.png"></div>
+      <div class="c1"><img src="img/profile-3.png"></div>
+     <div>
+      <div class="c1"><img src="img/profile-4.png"></div>
+      <div class="c1"><img src="img/profile-5.png"></div>
+      <div class="c1"><img src="img/profile-6.png"></div>
+     </div>
